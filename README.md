@@ -57,7 +57,7 @@ use('submodule1');
 use('submodule2');
 console.log('Module has been loaded');
 ```
-Modules can export an object that the dependent module can use:
+Modules can export an object that the dependent module can use:  
 submodule1.js
 ```javascript
 console.log('submodule1 has been loaded.');
