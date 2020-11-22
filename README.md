@@ -1,5 +1,6 @@
 # Modulo
 A Javascript module loader with caching support and easy source update mechanism intended for areas with slow internet connections. 
+Modulo works by loading and caching the modules during the first load then using the cached modules for the succeeding load improving and giving consistent speed especially in areas with slow internet connections.
 # Usage
 Set the name of the OSS (Offline Solution Storage) used for caching the modules. This must be unique for every web application and must be initialized before calling mount or load.
 ```javascript
