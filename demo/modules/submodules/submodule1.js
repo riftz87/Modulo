@@ -1,0 +1,1 @@
+console.log('submodule1 has been loaded.');
