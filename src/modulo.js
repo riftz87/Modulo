@@ -4,6 +4,7 @@
 */
 (function(global, factory) {
     // Test
+    // Another test
     if (typeof window !== 'undefined') {
         factory(global);
     }
