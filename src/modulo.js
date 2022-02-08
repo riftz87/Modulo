@@ -3,6 +3,7 @@
  * (c) 2020 Fritz Ramirez
 */
 (function(global, factory) {
+    // Test
     if (typeof window !== 'undefined') {
         factory(global);
     }
